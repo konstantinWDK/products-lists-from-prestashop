@@ -30,7 +30,7 @@ Un plugin que permite mostrar productos de una tienda PrestaShop obteniendo prod
 1. Sube los archivos del plugin al directorio `/wp-content/plugins/products-lists-from-prestashop` o instálalo directamente desde el directorio de plugins de WordPress.
 2. Activa el plugin desde el menú 'Plugins' de WordPress.
 3. Dirígete al menú "Listados" en el panel de administración de WordPress para configurar y gestionar los listados de productos.
-4. Usa el shortcode `[prestashop_listado id="ID_DEL_LISTADO"]` para mostrar productos en cualquier página o post.
+4. Usa el shortcode `[plfp_listado id="ID_DEL_LISTADO"]` para mostrar productos en cualquier página o post.
 
 == Frequently Asked Questions (FAQ) ==
 
@@ -39,7 +39,7 @@ La clave API de PrestaShop se puede generar desde el panel de administración de
 Añade permisos ver GET a tu API de "categories, images, price_ranges, products
 
 = ¿Cómo agrego los productos en una página o post? =
-Usa el shortcode `[prestashop_listado id="ID_DEL_LISTADO"]` para mostrar un listado de productos en cualquier página o post de WordPress.
+Usa el shortcode `[plfp_listado id="ID_DEL_LISTADO"]` para mostrar un listado de productos en cualquier página o post de WordPress.
 
 = ¿Qué hacer si no veo los productos correctamente? =
 Asegúrate de que la URL de tu tienda PrestaShop y la clave API estén configuradas correctamente en los ajustes del plugin.
